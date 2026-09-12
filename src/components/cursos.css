@@ -1,0 +1,27 @@
+.cursos {
+    background-color: #f1f3f6;
+    padding: 200px 32px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cursos__titulo {
+    margin: 0;
+    color: #17192d;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cursos__descripcion {
+    margin: 16px 0 32px;
+    color: #6b7280;
+    font-size: 15px;
+}
+
+.cursos__lista {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}

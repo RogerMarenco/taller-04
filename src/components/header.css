@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #17192d;
+    color: #ffffff;
+    padding: 16px 32px;
+}
+
+.header__logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #c00ba2;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header__item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #f3f5f6;
+    text-decoration: none;
+}
+
+.header__item:hover {
+    color: #c00ba2;
+}

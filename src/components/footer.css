@@ -1,0 +1,20 @@
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: gray;
+    padding: 10px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer__copyright {
+    font-size: 13px;
+}
+
+.sub {
+    font-weight: bold;
+    color: #c00ba2;
+    font-size: 14px;
+}
