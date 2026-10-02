@@ -1,0 +1,39 @@
+.not-found {
+    min-height: 500px;
+    background-color: #f1f3f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.not-found__titulo {
+    margin: 0;
+    color: #f04463;
+    font-size: 80px;
+}
+
+.not-found__subtitulo {
+    margin: 10px 0;
+    color: #17192d;
+    font-size: 28px;
+}
+
+.not-found__descripcion {
+    color: #6b7280;
+    font-size: 15px;
+}
+
+.not-found__boton {
+    margin-top: 20px;
+    padding: 13px 25px;
+    border-radius: 25px;
+    background-color: #f04463;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}

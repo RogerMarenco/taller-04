@@ -1,26 +1,30 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
-import Header from './components/header.jsx'
-import Footer from './components/footer.jsx'
-import Principal from './components/principal.jsx'
-import Cursos from './components/cursos.jsx'
-import Contador from './components/contador.jsx'
+import { Routes, Route } from "react-router-dom";
+
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
+import Home from "./views/Home";
+import Cursos from "./views/cursos";
+import Nosotros from "./views/Nosotros";
+import Login from "./views/Login";
+import NotFound from "./views/NotFound";
 
 function App() {
-  const [count, setCount] = useState(0)
+    return (
+        <>
+            <Navbar />
 
-  return (
-    <div className="page">
-      <Header />
-      <Principal />
-      <Cursos />
-      <Contador />
-      <Footer />
-    </div>
-  )
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/cursos" element={<Cursos />} />
+                <Route path="/nosotros" element={<Nosotros />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="*" element={<NotFound />} />
+            </Routes>
+
+            <Footer />
+        </>
+    );
 }
 
-export default App
+export default App;

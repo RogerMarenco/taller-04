@@ -1,0 +1,83 @@
+.login {
+    min-height: 500px;
+    background-color: #f1f3f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login__contenedor {
+    width: 100%;
+    max-width: 420px;
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+
+.login__titulo {
+    margin: 0 0 10px;
+    color: #17192d;
+    font-size: 30px;
+    text-align: center;
+}
+
+.login__descripcion {
+    margin: 0 0 30px;
+    color: #6b7280;
+    font-size: 14px;
+    text-align: center;
+}
+
+.login__formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__label {
+    margin-bottom: 8px;
+    color: #17192d;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.login__input {
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #dfe3e8;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.login__input:focus {
+    outline: none;
+    border-color: #f04463;
+}
+
+.login__boton {
+    padding: 13px;
+    border: none;
+    border-radius: 25px;
+    background-color: #f04463;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login__boton:disabled {
+    background-color: #cbd0d8;
+    cursor: not-allowed;
+}
+
+.login__microcopy {
+    margin: 20px 0 0;
+    color: #8a909b;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+}

@@ -1,21 +1,25 @@
+import { Link } from "react-router-dom";
 import "./principal.css";
 
 function Principal() {
     return (
-        <section id="inicio" className="principal">
-            <h1 className="principal__titulo">
-                Aprende <span className="principal__subtitulo">React</span> desde cero
+        <section className="hero">
+
+            <h1 className="hero__title">
+                Aprende <span className="hero__highlight">React</span> desde cero
             </h1>
 
-            <p className="principal__descripcion">
-                Domina la librería más popular del frontend con proyectos prácticos y reales.
+            <p className="hero__description">
+                Domina la librería más popular del frontend con proyectos
+                prácticos y reales.
             </p>
 
-            <a href="#cursos" className="principal__boton">
+            <Link to="/cursos" className="hero__button">
                 Ver Cursos
-            </a>
+            </Link>
+
         </section>
-    )
+    );
 }
 
 export default Principal;
